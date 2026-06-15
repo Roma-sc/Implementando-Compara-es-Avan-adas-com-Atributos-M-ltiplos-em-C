@@ -28,7 +28,6 @@ int main() {
     printf("1 - Populacao\n2 - Area Territorial\n3 - PIB\n4 - Pontos Turisticos\n5 - Densidade Demografica\n");
     printf("Escolha o 1o Atributo: ");
     scanf("%d", &atributo1);
-
     
     switch(atributo1) {
         case 1: nomeAtrib1 = "Populacao"; valAtrib1_C1 = populacao1; valAtrib1_C2 = populacao2; break;
